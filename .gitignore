@@ -1,0 +1,16 @@
+node_modules
+bower_components
+dist
+yarn.lock
+config.rb
+*.zip
+*.psd
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.sublime-project
+*.sublime-workspace
+*.sln
+*.settings
+*.cfg

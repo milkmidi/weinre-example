@@ -1,0 +1,28 @@
+{
+  "name": "milkmidi-webpack-example",
+  "version": "1.0.0",
+  "description": "webpack exampl",
+  "author": "milkmidi",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "start:weinre": "cross-env NODE_ENV=development WEINRE=true webpack-dev-server --hot",
+    "weinre": "weinre --httpPort 8000 --boundHost  0.0.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.0",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^5.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "pug-html-loader": "^1.1.5",
+    "raw-loader": "^3.0.0",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "weinre": "^2.0.0-pre-I0Z7U9OV"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.0"
+  }
+}
